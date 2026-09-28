@@ -3,7 +3,7 @@
 - Giữ nguyên mã và nội dung bài 1–30 để nhật ký cũ tiếp tục trỏ đúng bài.
 - Bổ sung 335 tình huống: 67 kỹ năng, mỗi kỹ năng được thực hành qua 5 tình huống khác nhau. Các nhóm được đan xen, ôn lại kỹ năng ở hoàn cảnh mới trong năm.
 - Tổng số: giao tiếp 55; cảm xúc 63; tự lập 65; tình bạn 56; an toàn 73; trách nhiệm 53.
-- Mỗi bài có mục tiêu, tình huống, câu hỏi, giải thích, thực hành, điều cần nhớ và hoạt động áp dụng. Cha mẹ dùng 6 bước hướng dẫn, dùng lời dẫn chung cho trẻ tiểu học dưới 12 tuổi, điều chỉnh theo mức hiểu của con, không chia nhóm tuổi hay lớp.
+- Mỗi bài có mục tiêu, tình huống, bốn lựa chọn A/B/C/D, phản hồi sau khi trả lời, kết luận, điều cần nhớ và hoạt động thực hành. Cha mẹ hướng dẫn theo 6 bước: Mục tiêu → Tình huống → Bé trả lời → Kết luận & tổng kết → Thực hành → Ghi nhận. Lời dẫn dùng chung cho trẻ tiểu học dưới 12 tuổi, điều chỉnh theo mức hiểu của con, không chia nhóm tuổi hay lớp.
 - 12 chặng chỉ là cách chia 365 bài để tìm kiếm và theo dõi. Không kiểm tra ngày để khóa bài; không thông báo theo giờ, không tạo lịch lặp.
 - Nội dung do app biên soạn. Các bài an toàn chỉ thực hành qua lời kể/tranh, không tạo nguy hiểm thật, không dạy trẻ tự cứu hộ hoặc xử lý sự cố điện/cháy.
 

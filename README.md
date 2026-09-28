@@ -14,7 +14,7 @@
 
 1. Phụ huynh tạo hồ sơ cho con bằng biệt danh.
 2. Mở **Học ngay** để chọn bài tiếp theo, hoặc tìm bài trong **Thư viện bài học**.
-3. Hướng dẫn con qua 6 bước: **Chuẩn bị → Kể chuyện → Cùng trò chuyện → Giải thích → Thực hành → Ghi nhận**.
+3. Hướng dẫn con qua 6 bước: **Mục tiêu → Tình huống → Bé trả lời A/B/C/D → Kết luận & tổng kết → Thực hành → Ghi nhận**.
 4. Chọn con đã tham gia, ghi kết quả và bấm **Hoàn thành và lưu bài**.
 5. Trang chủ hiển thị bài đã học và các bài chưa học tiếp theo. Có thể nghỉ, học tiếp hoặc ôn lại bất cứ lúc nào.
 
@@ -22,7 +22,7 @@ App không đặt giờ học cố định, không gửi nhắc học lúc 22h v
 
 ## Các chức năng đã có
 
-- 365 bài với mục tiêu, tình huống, câu hỏi, lời giải thích và hoạt động thực hành.
+- 365 bài với mục tiêu, tình huống, bốn lựa chọn A/B/C/D, phản hồi sau khi trả lời, kết luận và hoạt động thực hành.
 - Thư viện có tìm kiếm có dấu/không dấu, lọc chủ đề và phân trang.
 - Lộ trình 12 chặng để theo dõi 365 bài; mọi bài đều có thể mở.
 - Trang chủ có lịch sử học gần đây và 3 bài chưa học kế tiếp.

@@ -7,20 +7,22 @@ App dành cho cha mẹ đồng hành với trẻ tiểu học dưới 12 tuổi.
 1. Mở app và đăng nhập bằng tài khoản có quyền truy cập.
 2. Vào **Gia đình → Thêm con**; nhập biệt danh, chẳng hạn “Bé Mít”. Không cần nhập tuổi, lớp, trường hoặc ngày sinh.
 3. Vào **Học ngay**, chọn hồ sơ con và mở bài được gợi ý. Có thể chọn bài khác trong **Thư viện bài học**.
-4. Đọc phần chuẩn bị trước khi gọi con cùng học.
+4. Đọc mục tiêu và phần chuẩn bị trước khi gọi con cùng học.
 
 ## Sáu bước của mỗi bài
 
 | Bước | Phụ huynh làm gì? |
 | --- | --- |
-| Chuẩn bị | Đọc mục tiêu, chọn không gian phù hợp và xem trước hoạt động. |
-| Kể chuyện | Đọc hoặc kể tình huống bằng lời của mình. |
-| Cùng trò chuyện | Đặt câu hỏi, lắng nghe con và cho con thời gian suy nghĩ. |
-| Giải thích | Giải thích điều cần nhớ; dùng cách diễn đạt đơn giản khi cần. |
+| Mục tiêu | Nêu điều con sẽ học, chọn không gian phù hợp và xem trước hoạt động. |
+| Tình huống | Đọc hoặc kể tình huống bằng lời của mình. |
+| Bé trả lời | Đọc bốn lựa chọn A, B, C, D; con chọn một đáp án và nói lý do, rồi bấm **Trả lời**. |
+| Kết luận & tổng kết | Sau khi trả lời, xem cách xử lý gợi ý, lý do và điều cần nhớ; để con tổng kết bằng lời riêng. |
 | Thực hành | Cùng con thử hoạt động trong bài, điều chỉnh theo khả năng và điều kiện gia đình. |
 | Ghi nhận | Chọn con đã tham gia, kết quả và ghi chú; bấm **Hoàn thành và lưu bài**. |
 
-Có thể học một bài với nhiều con. Chọn những con thực sự tham gia ở bước ghi nhận và ghi kết quả riêng cho từng con.
+Con cần bấm **Trả lời** trước khi mở kết luận. Khi con chọn chưa phù hợp, app giải thích nhẹ nhàng và vẫn cho học tiếp; có thể chọn **Chọn lại để luyện thêm**. Các đáp án là gợi ý để trò chuyện, không dùng để chấm điểm hay so sánh các con.
+
+Có thể học một bài với nhiều con và lần lượt cho từng con chọn lại. Chọn những con thực sự tham gia ở bước ghi nhận và ghi kết quả riêng cho từng con. Đáp án đang chọn chỉ thuộc lần học trên trình duyệt; app không lưu điểm riêng cho từng con.
 
 ## Sau khi hoàn thành
 
@@ -41,7 +43,7 @@ Kết quả **Cần luyện thêm** vẫn ghi nhận rằng gia đình đã họ
 
 Mở cùng địa chỉ web và đăng nhập cùng tài khoản. Hồ sơ và ghi nhận đã lưu nằm trên máy chủ. Nếu bạn đang mở hai thiết bị và có thông báo dữ liệu đã thay đổi, tải lại dữ liệu rồi cập nhật.
 
-App nhớ bài và bước đang đọc trong trình duyệt hiện tại. Phần này không đồng bộ giữa các thiết bị và không thay thế thao tác **Hoàn thành và lưu bài**. Nếu việc lưu bị lỗi, giữ trang đang mở và thử lưu lại theo thông báo của app.
+App nhớ bài, bước đang đọc và đáp án đã chọn hoặc đã gửi trong trình duyệt hiện tại. Phần này không đồng bộ giữa các thiết bị và không thay thế thao tác **Hoàn thành và lưu bài**. Nếu việc lưu bị lỗi, giữ trang đang mở và thử lưu lại theo thông báo của app.
 
 Không có lịch nhắc học cố định. Gia đình chọn thời gian thuận tiện, có thể nghỉ giữa các buổi, học lại hoặc chọn bài ngoài thứ tự.
 

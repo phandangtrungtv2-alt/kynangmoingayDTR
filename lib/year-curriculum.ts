@@ -1,5 +1,6 @@
 // Five different situations per skill, with a different practice format in each lesson.
 // The first 30 legacy lessons retain their IDs in lessons.ts.
+import {makeQuiz,skillChoices} from './lesson-choices';
 type Unit={category:string;skill:string;explain:string;remember:string;application:string;cases:[string,string][]};
 const units:Unit[]=[
 {category:'Giao tiếp',skill:'chào hỏi phù hợp với người và hoàn cảnh',explain:'Con có thể chào bằng lời, gật đầu hoặc vẫy tay. Nói vừa đủ nghe và tôn trọng khoảng cách; chào hỏi không bắt buộc phải ôm hay chạm vào người khác.',remember:'Chào thân thiện theo cách con thoải mái.',application:'Chọn một người con sẽ chào trong lần gặp tới.',cases:[
@@ -418,6 +419,11 @@ const practiceFormats=[
 const conclusion=units[units.length-1];
 const groups=['Giao tiếp','Cảm xúc','Tự lập','Tình bạn','An toàn','Trách nhiệm'].map(category=>units.slice(0,-1).filter(u=>u.category===category));
 const orderedUnits=Array.from({length:Math.max(...groups.map(g=>g.length))},(_,i)=>groups.flatMap(g=>g[i]?[g[i]]:[])).flat().concat(conclusion);
+export const additionalQuizzes=Array.from({length:5},(_,i)=>orderedUnits.map((unit,j)=>{
+  const choices=skillChoices[unit.skill];
+  if(!choices)throw new Error(`Thiếu lựa chọn cho kỹ năng: ${unit.skill}`);
+  return makeQuiz(choices,31+i*orderedUnits.length+j);
+})).flat();
 export const additionalRows=Array.from({length:5},(_,i)=>orderedUnits.map(unit=>{const [title,story]=unit.cases[i];return [
   title,unit.category,`Con biết ${unit.skill}.`,story,
   `${['Nhân vật đang gặp khó khăn gì? Nếu là con, con sẽ làm gì trước?','Có những cách xử lý nào? Cách con chọn giúp ích như thế nào?','Con có thể nói câu gì trong tình huống này? Người nghe cần hiểu điều gì?','Điều gì có thể xảy ra nếu chưa xử lý việc này? Con cần ai hỗ trợ?','Con chọn hành động nào và vì sao? Khi gặp điều tương tự, con sẽ bắt đầu thế nào?'][i]}`,

@@ -1,4 +1,5 @@
-import {additionalRows} from './year-curriculum';
+import {additionalRows,additionalQuizzes} from './year-curriculum';
+import {legacyChoices,makeQuiz,type LessonQuiz} from './lesson-choices';
 export const categories = ['Tất cả','Giao tiếp','Cảm xúc','Tự lập','Tình bạn','An toàn','Trách nhiệm'];
 type Row = [string,string,string,string,string,string,string,string,string];
 const rows: Row[] = [
@@ -33,8 +34,9 @@ const rows: Row[] = [
 ['Giữ lời hứa vừa sức','Trách nhiệm','Con biết hứa điều có thể làm và báo khi cần điều chỉnh.','Bảo hứa tưới cây nhưng quên vì bận học. Đến tối bạn muốn giấu chuyện đó.','Bảo có thể nói thật và sửa thế nào?','Hứa việc vừa sức, đặt lời nhắc và báo sớm khi không làm được. Thừa nhận rồi cùng tìm cách điều chỉnh có ích hơn giấu đi.','Chọn một cam kết nhỏ cho ngày mai, nói rõ lúc làm và ai hỗ trợ nếu cần.','Hứa vừa sức, khó thì nói thật.','Cùng xem lại cam kết, ghi nhận nỗ lực và điều chỉnh nếu cần.'],
 ['Nhìn lại: Con đã lớn lên thế nào?','Trách nhiệm','Con nhận ra tiến bộ và chọn kỹ năng muốn luyện tiếp.','Sau nhiều buổi học, con đã thử nhờ giúp, tự chuẩn bị và lắng nghe. Có việc dễ hơn, có việc vẫn còn khó.','Điều gì con tự hào? Điều gì con muốn cha mẹ cùng luyện thêm?','Tiến bộ là từng bước nhỏ. Có thể quên và học lại. Mỗi người có nhịp riêng, không cần so với anh chị em hay bạn bè.','Mỗi người kể một việc con đã thử và cùng chọn hai bài để ôn. Ghi nhận hành động cụ thể.','Mỗi ngày một chút, con đang lớn lên.','Chọn một kỹ năng để tiếp tục thực hành trong tuần tới.']
 ];
-export type Lesson={id:number;title:string;category:string;goal:string;story:string;question:string;explain:string;practice:string;remember:string;mission:string;minutes:number};
-export const lessons:Lesson[]=[...rows,...additionalRows].map((r,i)=>({id:i+1,title:r[0],category:r[1],goal:r[2],story:r[3],question:r[4],explain:r[5],practice:r[6],remember:r[7],mission:r[8],minutes:[6,7,8][i%3]}));
-export const stages=['Chuẩn bị','Kể chuyện','Cùng trò chuyện','Giải thích','Thực hành','Ghi nhận'];
+export type Lesson={id:number;title:string;category:string;goal:string;story:string;question:string;quiz:LessonQuiz;explain:string;practice:string;remember:string;mission:string;minutes:number};
+const quizzes=[...legacyChoices.map((choices,i)=>makeQuiz(choices,i+1)),...additionalQuizzes];
+export const lessons:Lesson[]=[...rows,...additionalRows].map((r,i)=>({id:i+1,title:r[0],category:r[1],goal:r[2],story:r[3],question:r[4],quiz:quizzes[i],explain:r[5],practice:r[6],remember:r[7],mission:r[8],minutes:[6,7,8][i%3]}));
+export const stages=['Mục tiêu','Tình huống','Bé trả lời','Kết luận & tổng kết','Thực hành','Ghi nhận'];
 export function vnDate(d=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(d)}
 export function elapsed(start:string,now=vnDate()){return Math.max(0,Math.floor((Date.parse(now+'T00:00:00Z')-Date.parse(start+'T00:00:00Z'))/86400000))}
