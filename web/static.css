@@ -1,0 +1,4 @@
+/* Trang vào CSS cho bản web tĩnh: dùng chung giao diện với app chính. */
+@import "../app/globals.css";
+@source "../app";
+@source "../components";

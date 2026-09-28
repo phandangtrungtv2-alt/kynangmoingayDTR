@@ -4,7 +4,7 @@
 
 **365 bài học · 6 chủ đề · Học bất cứ lúc nào · Dùng trên máy tính và điện thoại**
 
-[Mở app đang được triển khai](https://moi-ngay-cung-con.yenthainam2025.chatgpt.site/) — phiên bản hiện tại là không gian riêng, cần tài khoản có quyền truy cập.
+[Mở app đang được triển khai](https://moi-ngay-cung-con.yenthainam2025.chatgpt.site/) — phiên bản hiện tại là không gian riêng, cần tài khoản có quyền truy cập. Hoặc dùng [bản web tĩnh công khai](https://phandangtrungtv2-alt.github.io/kynangmoingayDTR/) — không cần tài khoản, dữ liệu lưu trên thiết bị của bạn.
 
 ![Trang chủ hiển thị bài đã học và lộ trình tiếp theo](docs/images/trang-chu.png)
 
@@ -88,7 +88,9 @@ React 19, TypeScript, giao diện theo Next.js App Router, vinext/Vite, Tailwind
 
 ## GitHub và hosting
 
-GitHub lưu mã nguồn và tài liệu. Việc upload lên GitHub **không tự triển khai app**. Phiên bản này cần máy chủ, cơ sở dữ liệu D1 và đăng nhập, nên không chạy nguyên bản bằng GitHub Pages.
+GitHub lưu mã nguồn và tài liệu. Việc upload lên GitHub **không tự triển khai app**. Bản đầy đủ cần máy chủ, cơ sở dữ liệu D1 và đăng nhập, nên không chạy nguyên bản bằng GitHub Pages.
+
+**Bản web tĩnh trên GitHub Pages:** thư mục [`web/`](web/README.md) là bản đóng gói tĩnh của app — không cần đăng nhập, dữ liệu lưu ngay trên thiết bị người dùng. Mỗi lần push lên `main`, GitHub Actions sẽ tự build và xuất bản lên GitHub Pages: https://phandangtrungtv2-alt.github.io/kynangmoingayDTR/
 
 Khi chuyển sang hosting khác, cần cấu hình cơ sở dữ liệu và thay hoặc tích hợp lớp đăng nhập. Xem các yêu cầu trong [hướng dẫn triển khai](docs/CAI_DAT_VA_TRIEN_KHAI.md#triển-khai-lên-web).
 
